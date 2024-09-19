@@ -10,7 +10,7 @@ public class Main {
             String[] line = scanner.nextLine().split(" ");
             if ("end".equalsIgnoreCase(line[0])) {
                 break;
-            }
+            } else{
 
             switch (line[0]) {
                 case "Create":
@@ -26,6 +26,7 @@ public class Main {
                     getInterest(Integer.parseInt(line[1]), Integer.parseInt(line[2]), bankAccounts);
                     break;
             }
+        }
         }
     }
 
