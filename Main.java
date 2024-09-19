@@ -10,8 +10,10 @@ public class Main {
             String[] line = scanner.nextLine().split(" ");
             if ("end".equalsIgnoreCase(line[0])) {
                 break;
+            } else if("test".equalsIgnoreCase(line[0])) {
+                continue;
             }
-
+                
             switch (line[0]) {
                 case "Create":
                     createBankAccount(bankAccounts);
