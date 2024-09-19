@@ -10,7 +10,7 @@ public class Main {
             String[] line = scanner.nextLine().split(" ");
             if ("end".equalsIgnoreCase(line[0])) {
                 break;
-            } else{
+            }
 
             switch (line[0]) {
                 case "Create":
