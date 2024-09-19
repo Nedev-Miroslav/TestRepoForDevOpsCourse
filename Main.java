@@ -25,6 +25,7 @@ public class Main {
                 case "GetInterest":
                     getInterest(Integer.parseInt(line[1]), Integer.parseInt(line[2]), bankAccounts);
                     break;
+                // End of switch case
             }
         
         }
